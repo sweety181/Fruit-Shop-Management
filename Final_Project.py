@@ -1,18 +1,3 @@
-"""
-item_dict={}
-f= open("data01.txt","r")
-while True:
-    item = f.readline()
-    if item=='':
-        break
-    qntt = f.readline()
-    uprc = f.readline()
-    item = item [:len(item)-1]
-    qntt = int(qntt[:len(qntt)-1])
-    uprc = float(uprc[:len(uprc)-1])
-    item_dict[item]=[qntt,uprc]
-f.close()
-"""
 item_dict={
     "Apple":[2500,50],
     "Banana":[400,5],
@@ -105,18 +90,7 @@ while True:
               break
     else:
         continue
-<<<<<<< HEAD:Final_Project.py
-"""
-f= open("D:/PP-08/data01.txt","r","w") 
-=======
-f= open("data01.txt","r","w") 
->>>>>>> b11af92bd321151ca599563903be6377062d1359:Final_Project_Sweety.py
-for x in item_dict:
-    f.write(x+"\n")
-    f.write(str(item_dict[x][0])+"\n")
-    f.write(str(item_dict[x][1])+"\n")
-f.close()
-"""
+
 
 
 
